@@ -64,6 +64,9 @@
 }
 
 @media screen and (max-width:600px) {
+    .video-player {
+        object-fit: contain;
+    }
     .smallFrame {
         height: 100px;
         width: 150px;
