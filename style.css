@@ -14,8 +14,8 @@
 .video-player {
     background-color: rgb(2, 2, 2);
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    height: 68%;
+    object-fit: cover;
 }
 
 #user-2 {
@@ -65,7 +65,7 @@
 
 @media screen and (max-width:600px) {
     .video-player {
-        object-fit: contain;
+        height: 100%;
     }
     .smallFrame {
         height: 100px;
